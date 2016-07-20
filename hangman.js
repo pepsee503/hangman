@@ -6,7 +6,7 @@ $( document ).ready(function() {
       var letterId = this.id;
 	  checkLetter(letterId);
 	  guesses--;
-	  
+	  sandra
 	  if (guesses === 0) {
 		  alert("You've used up your guesses. You've lost!");
 	  }
