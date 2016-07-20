@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hangman</title>
+		<link rel="stylesheet" href="hangman.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="hangman.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<h1>Welcome to Hangman</h1>
+		</div>
+	
+		<div id="intro">
+		<div id="container">
+		<p>You only have 6 wrong guesses to solve this word. 
+		<br> So, choose wisely.
+		</p>
+		<INPUT id="secret" TYPE="TEXT" NAME="word"> Secret Word <BR>
+		<INPUT id="guessed" TYPE="TEXT" NAME="guessed"> Letters Guessed <BR>
+		</div>
+	
+		<div id="container">
+		
+		<input id="a" type="button" value="A" onclick="guessLetter('a')">
+		<input id="b" type="button" value="B" onclick="guessLetter('b')">
+		<input id="c" type="button" value="C" onclick="guessLetter('c')">
+		<input id="d" type="button" value="D" onclick="guessLetter('d')">
+		<input id="e" type="button" value="E" onclick="guessLetter('e')">
+		<input id="f" type="button" value="F" onclick="guessLetter('f')">
+		<input id="g" type="button" value="G" onclick="guessLetter('g')">
+		<input id="h" type="button" value="H" onclick="guessLetter('h')">	
+		<input id="i" type="button" value="I" onclick="guessLetter('i')">
+		<input id="j" type="button" value="J" onclick="guessLetter('j')">
+		<input id="k" type="button" value="K" onclick="guessLetter('k')">
+		<input id="l" type="button" value="L" onclick="guessLetter('l')">
+		<input id="m" type="button" value="M" onclick="guessLetter('m')">
+		<input id="n" type="button" value="N" onclick="guessLetter('n')">
+		<input id="o" type="button" value="O" onclick="guessLetter('o')">
+		<input id="p" type="button" value="P" onclick="guessLetter('p')">
+		<input id="q" type="button" value="Q" onclick="guessLetter('q')">	
+		<input id="r" type="button" value="R" onclick="guessLetter('r')">
+		<input id="s" type="button" value="S" onclick="guessLetter('s')">
+		<input id="t" type="button" value="T" onclick="guessLetter('t')">
+		<input id="u" type="button" value="U" onclick="guessLetter('u')">
+		<input id="v" type="button" value="V" onclick="guessLetter('v')">
+		<input id="w" type="button" value="W" onclick="guessLetter('w')">
+		<input id="x" type="button" value="X" onclick="guessLetter('x')">
+		<input id="y" type="button" value="Y" onclick="guessLetter('y')">
+		<input id="z" type="button" value="Z" onclick="guessLetter('z')">
+		<p>
+		<input type="button" name="restart" value="Restart" onclick="startAgain()">
+
+		</div>
+		
+	</body>
+</html>
